@@ -1,0 +1,11 @@
+<header>
+  <h1>Mes projets</h1>
+</header>
+<main>
+  @for (p of projet$() | async; track $index) {
+    <projet  [projet]="p"></projet>
+  }
+
+</main>
+
+

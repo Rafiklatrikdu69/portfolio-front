@@ -1,0 +1,32 @@
+main{
+margin: 10%;
+  border: 1px solid rgb(11, 117, 183);
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+mat-list{
+  height: 400px;
+  overflow-y: scroll;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(34, 111, 199);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}

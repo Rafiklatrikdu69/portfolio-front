@@ -1,0 +1,19 @@
+<header>
+  <h1>Technologies</h1>
+</header>
+<main>
+  <mat-tab-group>
+    @for (categorie of technos$() | async; track $index) {
+      <mat-tab label="{{categorie.nom_cat}}">
+        <mat-list role="list">
+          @for (tech of categorie.technologies; track $index) {
+            <mat-list-item role="listitem">
+              <techno [techno]="tech"></techno>
+            </mat-list-item>
+            <mat-divider></mat-divider>
+          }
+        </mat-list>
+      </mat-tab>
+    }
+  </mat-tab-group>
+</main>

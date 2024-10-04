@@ -1,0 +1,13 @@
+<h2 mat-dialog-title>  {{data.projet.nom_projet}}</h2>
+<mat-dialog-content>
+  <p>{{data.projet.description}}</p>
+  <p>  {{data.projet.descriptionplus}}</p>
+  <div class="flex-technos">
+    @for (technosUtilisee of data.projet.technologies; track $index) {
+      <span><img [src]="'img/'+technosUtilisee.image_techno" alt=""></span>
+    }
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="animal()" cdkFocusInitial>Ok</button>
+</mat-dialog-actions>

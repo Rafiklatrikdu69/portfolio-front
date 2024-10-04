@@ -1,0 +1,10 @@
+main{
+  margin: 20px;
+  padding: 30px;
+}
+.mat-accordion{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+ 
+}
