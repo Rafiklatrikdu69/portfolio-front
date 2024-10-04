@@ -1,0 +1,120 @@
+{
+  "projet": [
+    {
+      "id_projet": 1,
+      "nom_projet": "Sportify",
+      "description": "Sportify est une plateforme sociale qui offre aux utilisateurs la possibilité de pronostiquer sur des matchs sportifs tout en leur permettant de publier et de partager du contenu.",
+      "date": "04/20/2024",
+      "image": "sportify.png",
+      "git": "https://github.com/Rafiklatrikdu69/Sportify_deploy",
+      "descriptionplus": "Ce projet Universitaire à été réaliser en groupe de 4.Dans ce projet je me suis occuper de mettre en place l'architecture de l'application ainsi que du déploiment avec AWS.",
+      "universitaire": 1,
+      "technologies": [
+        { "techno_id": 1, "nom_techno": "PHP", "image_techno": "php.png" },
+        { "techno_id": 4, "nom_techno": "Docker", "image_techno": "docker.png" },
+        { "techno_id": 5, "nom_techno": "AWS", "image_techno": "aws.png" },
+        { "techno_id": 9, "nom_techno": "JavaScript", "image_techno": "js.png" },
+        { "techno_id": 10, "nom_techno": "HTML", "image_techno": "html.png" },
+        { "techno_id": 11, "nom_techno": "CSS", "image_techno": "css.png" },
+        { "techno_id": 25, "nom_techno": "Vs Code", "image_techno": "vscode.png" },
+        { "techno_id": 31, "nom_techno": "GitHub", "image_techno": "github.png" }
+      ]
+    },
+    {
+      "id_projet": 2,
+      "nom_projet": "YourFood",
+      "description": "YourFood est une plateforme conviviale permettant à chacun de commander des repas via une interface simple et accessible à tous.",
+      "date": "04/20/2024",
+      "image": "yourfood.png",
+      "git": "https://forge.univ-lyon1.fr/p2200950/yourfood",
+      "descriptionplus": "Ce projet Universitaire à été réaliser en binome. Ce projet consistait à comprendre l'utilisation des langages natifs tels que CSS et HTML.",
+      "universitaire": 1,
+      "technologies": [
+        { "techno_id": 10, "nom_techno": "HTML", "image_techno": "html.png" },
+        { "techno_id": 11, "nom_techno": "CSS", "image_techno": "css.png" },
+        { "techno_id": 25, "nom_techno": "Vs Code", "image_techno": "vscode.png" },
+        { "techno_id": 32, "nom_techno": "GitLab", "image_techno": "gitlab.png" }
+      ]
+    },
+    {
+      "id_projet": 3,
+      "nom_projet": "TurboTap",
+      "description": "TurboTap propose une application de clic rapide pour évaluer la vitesse des joueurs, offrant ainsi un moyen ludique d'améliorer les réflexes et la coordination.",
+      "date": "04/20/2024",
+      "image": "turbo.png",
+      "git": "https://github.com/Rafiklatrikdu69/TurboTap",
+      "descriptionplus": "Dans ce projet professionnel j'ai pu découvrir les frameworks c# et Angular et j'ai donc commencé à apprécier Angular.",
+      "universitaire": 0,
+      "technologies": [
+        { "techno_id": 2, "nom_techno": "C#", "image_techno": "csharp.png" },
+        { "techno_id": 16, "nom_techno": "Angular", "image_techno": "angular.png" },
+        { "techno_id": 25, "nom_techno": "Vs Code", "image_techno": "vscode.png" },
+        { "techno_id": 30, "nom_techno": "SCSS", "image_techno": "scss.png" },
+        { "techno_id": 31, "nom_techno": "GitHub", "image_techno": "github.png" }
+      ]
+    },
+    {
+      "id_projet": 4,
+      "nom_projet": "BourseApp",
+      "description": "BourseApp est une application boursière qui affiche sous forme de graphe des données liées à la crypto-monnaie.",
+      "date": "04/20/2024",
+      "image": "bourse.png",
+      "git": "https://github.com/Rafiklatrikdu69/app-nest",
+      "descriptionplus": "Le But de ce projet été de découvrir le framework NestJS avec Angular.",
+      "universitaire": 0,
+      "technologies": [
+        { "techno_id": 2, "nom_techno": "C#", "image_techno": "csharp.png" },
+        { "techno_id": 3, "nom_techno": "NestJS", "image_techno": "nest.png" },
+        { "techno_id": 31, "nom_techno": "GitHub", "image_techno": "github.png" },
+        { "techno_id": 25, "nom_techno": "Vs Code", "image_techno": "vscode.png" }
+      ]
+    },
+    {
+      "id_projet": 5,
+      "nom_projet": "Nas'Info",
+      "description": "Nas'Info est un site web qui affiche les articles que la Nasa publie régulièrement.",
+      "date": "04/20/2024",
+      "image": "nasa.png",
+      "git": "https://github.com/Rafiklatrikdu69/NasaInfo",
+      "descriptionplus": "Ce projet m'a permis de m'améliorer sur l'utilisation des API avec les services Angular.",
+      "universitaire": 0,
+      "technologies": [
+        { "techno_id": 2, "nom_techno": "C#", "image_techno": "csharp.png" },
+        { "techno_id": 25, "nom_techno": "Vs Code", "image_techno": "vscode.png" },
+        { "techno_id": 31, "nom_techno": "GitHub", "image_techno": "github.png" }
+      ]
+    },
+    {
+      "id_projet": 6,
+      "nom_projet": "Portfolio",
+      "description": "Mon portfolio détaille les raisons ayant motivé mon choix de carrière dans le domaine de l'informatique, illustrant mes passions et mes objectifs professionnels.",
+      "date": "04/20/2024",
+      "image": "porfoliot.png",
+      "git": "https://github.com/Rafiklatrikdu69/portfolio",
+      "descriptionplus": "Ce projet personnel m'a permis d'en apprendre un peu plus sur les composants Angular.",
+      "universitaire": 0,
+      "technologies": [
+        { "techno_id": 31, "nom_techno": "Angular", "image_techno": "angular.png" },
+        { "techno_id": 25, "nom_techno": "Vs Code", "image_techno": "vscode.png" },
+        { "techno_id": 31, "nom_techno": "GitHub", "image_techno": "github.png" }
+
+      ]
+    },
+    {
+      "id_projet": 7,
+      "nom_projet": "ShopLink",
+      "description": "ShopLink est un site web permettant de commander des produits frais que l'on retrouve dans les plus grands magasins.",
+      "date": "04/20/2024",
+      "image": "shoplink.png",
+      "git": "https://github.com/Rafiklatrikdu69/ShopLink",
+      "descriptionplus": "Ce projet personnel a été pour une découverte du framework Symfony.",
+      "universitaire": 0,
+      "technologies": [
+        { "techno_id": 6, "nom_techno": "Symfony", "image_techno": "symfony.png" },
+        { "techno_id": 29, "nom_techno": "SQL", "image_techno": "sql.png" },
+        { "techno_id": 25, "nom_techno": "Vs Code", "image_techno": "vscode.png" },
+        { "techno_id": 31, "nom_techno": "GitHub", "image_techno": "github.png" }
+      ]
+    }
+  ]
+}

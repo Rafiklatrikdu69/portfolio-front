@@ -1,0 +1,7 @@
+<main>
+  <mat-accordion>
+    @for (semestre of SemestreCompetence$() | async; track $index) {
+      <app-competence [semestre]="semestre"></app-competence>
+    }
+  </mat-accordion>
+</main>

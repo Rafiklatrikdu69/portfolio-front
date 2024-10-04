@@ -1,0 +1,38 @@
+main{
+  margin: 30px;
+  margin-top: 10%;
+}
+.example-card {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  padding: 30px;
+}
+
+.main-image{
+  margin:10px auto;
+  width: 100%;
+}
+
+.example-header-image {
+
+  background-image: url('../../../../public/img/photo.jpg');
+
+  background-size: cover;
+}
+img{
+  object-fit: contain;
+  height: 300px;
+  width: 300px;
+}
+@media screen and (min-width: 80rem) {
+  mat-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+}

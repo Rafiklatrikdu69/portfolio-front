@@ -1,0 +1,29 @@
+<mat-expansion-panel hideToggle>
+  <mat-expansion-panel-header>
+    <mat-panel-title> {{semestre.nom_semestre}}</mat-panel-title>
+  </mat-expansion-panel-header>
+
+  <mat-tab-group>
+    @for (competence of semestre.competences | orderBy : 'asc'; track $index ) {
+      <mat-tab label="{{competence.nom_competence}}">
+        @for (item of competence.niveauCompetence.apprentissages; track $index) {
+          <mat-list role="list">
+            <mat-list-item role="listitem" >
+              <div class="flex-appr">
+                <p  [matTooltip]="item.description_apprentissage" matTooltipPosition="right">{{item.nom_apprentissage}}</p>
+                <p>{{item.poids_apprentissage}} / 10</p>
+              </div>
+            </mat-list-item>
+            <mat-divider></mat-divider>
+          </mat-list>
+        }
+
+        <div class="projet-competence">
+          @if(competence.projet){
+            <projet [projet]="competence.projet"></projet>
+          }
+        </div>
+      </mat-tab>
+    }
+  </mat-tab-group>
+</mat-expansion-panel>

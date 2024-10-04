@@ -1,0 +1,189 @@
+{
+  "categories": [
+    {
+      "nom_cat": "Développement",
+      "technologies": [
+        {
+          "id_techno": 1,
+          "nom_techno": "PHP",
+          "image_techno": "php.png"
+        },
+        {
+          "id_techno": 2,
+          "nom_techno": "Angular",
+          "image_techno": "angular.png"
+        },
+        {
+          "id_techno": 3,
+          "nom_techno": "NestJS",
+          "image_techno": "nest.png"
+        },
+        {
+          "id_techno": 6,
+          "nom_techno": "Symfony",
+          "image_techno": "symfony.png"
+        },
+        {
+          "id_techno": 7,
+          "nom_techno": "Laravel",
+          "image_techno": "laravel.png"
+        },
+        {
+          "id_techno": 9,
+          "nom_techno": "JavaScript",
+          "image_techno": "js.png"
+        },
+        {
+          "id_techno": 10,
+          "nom_techno": "HTML",
+          "image_techno": "html.png"
+        },
+        {
+          "id_techno": 11,
+          "nom_techno": "CSS",
+          "image_techno": "css.png"
+        },
+        {
+          "id_techno": 12,
+          "nom_techno": "SCSS",
+          "image_techno": "scss.png"
+        },
+        {
+          "id_techno": 16,
+          "nom_techno": "C#",
+          "image_techno": "csharp.png"
+        },
+        {
+          "id_techno": 18,
+          "nom_techno": "VueJS",
+          "image_techno": "vue.png"
+        },
+        {
+          "id_techno": 34,
+          "nom_techno": "Salesforce",
+          "image_techno": "sales.png"
+        }
+      ]
+    },
+    {
+      "nom_cat": "Outils",
+      "technologies": [
+        {
+          "id_techno": 4,
+          "nom_techno": "Docker",
+          "image_techno": "docker.png"
+        },
+        {
+          "id_techno": 5,
+          "nom_techno": "AWS",
+          "image_techno": "aws.png"
+        },
+        {
+          "id_techno": 13,
+          "nom_techno": "GCP",
+          "image_techno": "google.png"
+        },
+        {
+          "id_techno": 17,
+          "nom_techno": "Linux",
+          "image_techno": "linux.png"
+        },
+        {
+          "id_techno": 24,
+          "nom_techno": "Visual Studio",
+          "image_techno": "visualStudio.png"
+        },
+        {
+          "id_techno": 25,
+          "nom_techno": "Vs Code",
+          "image_techno": "vscode.png"
+        },
+        {
+          "id_techno": 26,
+          "nom_techno": "JetBrains",
+          "image_techno": "jetBrains.png"
+        },
+        {
+          "id_techno": 29,
+          "nom_techno": "Postman",
+          "image_techno": "Postman.png"
+        },
+        {
+          "id_techno": 30,
+          "nom_techno": "Swagger",
+          "image_techno": "swagger.png"
+        },
+        {
+          "id_techno": 31,
+          "nom_techno": "GitHub",
+          "image_techno": "github.png"
+        },
+        {
+          "id_techno": 32,
+          "nom_techno": "GitLab",
+          "image_techno": "gitlab.png"
+        }
+      ]
+    },
+    {
+      "nom_cat": "Programmation",
+      "technologies": [
+        {
+          "id_techno": 14,
+          "nom_techno": "C",
+          "image_techno": "c.png"
+        },
+        {
+          "id_techno": 15,
+          "nom_techno": "C++",
+          "image_techno": "c++.png"
+        },
+        {
+          "id_techno": 19,
+          "nom_techno": "Kotlin",
+          "image_techno": "kotlin.png"
+        },
+        {
+          "id_techno": 23,
+          "nom_techno": "Java",
+          "image_techno": "java.png"
+        },
+        {
+          "id_techno": 27,
+          "nom_techno": "Arduino",
+          "image_techno": "Arduino.png"
+        },
+        {
+          "id_techno": 28,
+          "nom_techno": "Python",
+          "image_techno": "Python.png"
+        }
+      ]
+    },
+    {
+      "nom_cat": "Base de données",
+      "technologies": [
+        {
+          "id_techno": 20,
+          "nom_techno": "SQL",
+          "image_techno": "sql.png"
+        },
+        {
+          "id_techno": 21,
+          "nom_techno": "SQLite",
+          "image_techno": "sqlite.png"
+        },
+        {
+          "id_techno": 22,
+          "nom_techno": "MongoDB",
+          "image_techno": "mongo.png"
+        },
+        {
+          "id_techno": 33,
+          "nom_techno": "Power BI",
+          "image_techno": "powerbi.png"
+        }
+      ]
+    }
+  ]
+}

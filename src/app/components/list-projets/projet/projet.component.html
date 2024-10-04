@@ -1,0 +1,16 @@
+@if (projet.image) {
+  <main mat-raised-button (click)="openDialog(projet)">
+    <mat-card appearance="outlined" class="size-card">
+      <mat-card-header>
+        <mat-card-title>
+         <div class="title">{{projet.nom_projet}}</div>
+        </mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <img [src]="'img/'+projet.image" alt="">
+      </mat-card-content>
+    </mat-card>
+  </main>
+}
+
+

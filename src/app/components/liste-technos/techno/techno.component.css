@@ -1,0 +1,10 @@
+img{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+main{
+  display: flex;
+  text-align: center;
+  gap: 10px;
+}

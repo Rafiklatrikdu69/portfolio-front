@@ -1,0 +1,118 @@
+{
+
+"competence":[
+ {
+  "id_competence": 1,
+  "nom_competence": "Competence 1",
+  "id_semestre": 1,
+  "description": "Développer, concevoir, coder, tester et intégrer — une solution informatique pour un client",
+  "niveauCompetenceIdNiveau": 1,
+  "projetIdProjet": 9
+ },
+ {
+  "id_competence": 2,
+  "nom_competence": "Competence 5",
+  "id_semestre": 2,
+  "description": "Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d’exécution, précision, consommation de ressources..",
+  "niveauCompetenceIdNiveau": 2
+ },
+ {
+  "id_competence": 3,
+  "nom_competence": "Competence 2",
+  "id_semestre": 1,
+  "description": "Proposer des applications informatiquesnoptimisées en fonction de critères spécifiques :ntemps d’exécution, précision, consommation denressources...",
+  "niveauCompetenceIdNiveau": 3,
+  "projetIdProjet": 12
+ },
+ {
+  "id_competence": 4,
+  "nom_competence": "Competence 3",
+  "id_semestre": 1,
+  "description": "Installer, configurer, mettre à disposition, maintenir en conditions opérationnelles des infrastructures, des services et des réseaux et optimiser le système informatique d’une organisation.",
+  "niveauCompetenceIdNiveau": 4
+ },
+ {
+  "id_competence": 5,
+  "nom_competence": "Competence 3",
+  "id_semestre": 2,
+  "description": "Installer, configurer, mettre à disposition, maintenir en conditions opérationnelles desrninfrastructures, des services et des réseaux etrnoptimiser le système informatique d’unernorganisation.",
+  "niveauCompetenceIdNiveau": 6
+ },
+ {
+  "id_competence": 6,
+  "nom_competence": "Competence 5",
+  "id_semestre": 1,
+  "description": "Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client.",
+  "niveauCompetenceIdNiveau": 7,
+  "projetIdProjet": 2
+ },
+ {
+  "id_competence": 7,
+  "nom_competence": "Competence 4",
+  "id_semestre": 1,
+  "description": "Concevoir, gérer, administrer et exploiter les données de l’entreprise et mettre à disposition toutes les informations pour un bon pilotage de l’entreprise.",
+  "niveauCompetenceIdNiveau": 8,
+  "projetIdProjet": 10
+ },
+ {
+  "id_competence": 8,
+  "nom_competence": "Competence 6",
+  "id_semestre": 1,
+  "niveauCompetenceIdNiveau": 9
+ },
+ {
+  "id_competence": 9,
+  "nom_competence": "Competence 1",
+  "id_semestre": 3,
+  "description": "Développer — c’est-à-dire concevoir, coder, tester et intégrer — une solution informatique pour un client.",
+  "niveauCompetenceIdNiveau": 14,
+  "projetIdProjet": 1
+ },
+ {
+  "id_competence": 10,
+  "nom_competence": "Competence 1",
+  "id_semestre": 2,
+  "description": "Développer — c’est-à-dire concevoir, coder, tester et intégrer — une solution informatique pour un client.",
+  "niveauCompetenceIdNiveau": 10,
+  "projetIdProjet": 8
+ },
+ {
+  "id_competence": 11,
+  "nom_competence": "Competence 2",
+  "id_semestre": 2,
+  "description": "Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d’exécution, précision, consommation de ressources.",
+  "niveauCompetenceIdNiveau": 11,
+  "projetIdProjet": 8
+ },
+ {
+  "id_competence": 12,
+  "nom_competence": "Competence 4",
+  "id_semestre": 2,
+  "description": "Concevoir, gérer, administrer et exploiter les données de l’entreprise et mettre à disposition toutes les informations pour un bon pilotage de l’entreprise.",
+  "niveauCompetenceIdNiveau": 12,
+  "projetIdProjet": 11
+ },
+ {
+  "id_competence": 13,
+  "nom_competence": "Competence 6",
+  "id_semestre": 2,
+  "description": "Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique.",
+  "niveauCompetenceIdNiveau": 13
+ },
+ {
+  "id_competence": 15,
+  "nom_competence": "Competence 1",
+  "id_semestre": 4,
+  "description": "Développement d'une application",
+  "niveauCompetenceIdNiveau": 14,
+  "projetIdProjet": 1
+ },
+ {
+  "id_competence": 16,
+  "nom_competence": "Stage",
+  "id_semestre": 4,
+  "niveauCompetenceIdNiveau": 16,
+  "projetIdProjet": 14
+ }
+]
+}
