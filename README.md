@@ -12,14 +12,14 @@ Exécutez la commande suivante pour lancer un conteneur MySQL :
 docker run --name mysql_db -p 3306:3306 rafik1212/mysql-portfolio:latest
 ```
 
-### Étape 2 : Lancer La Back NestJs
+### Étape 2 : Lancer Le Back NestJs
 
 Exécutez la commande suivante pour lancer le conteneur :
 
 ```bash
 docker run --name nest-container --link mysql_db -p 80:3000 rafik1212/nestjs-app:latest
 ```
-### Étape 3 : Lancer La Front Angular
+### Étape 3 : Lancer Le Front Angular
 
 Exécutez la commande suivante pour lancer le conteneur :
 
