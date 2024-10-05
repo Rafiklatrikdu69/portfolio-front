@@ -9,8 +9,6 @@ export class  ProjetImpl extends ProjetRepository{
   http = inject(HttpClient);
   url = environment.apiURL;
   override getAllProjets(): Observable<Projet[]> {
-    return this.http.get<{projet :Projet[]}>(`projet.json`).pipe(
-      map(response => response.projet)
-    )
+    return this.http.get<Projet[]>(`${this.url}/projet/get`)
   }
 }

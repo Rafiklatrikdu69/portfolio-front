@@ -11,9 +11,7 @@ export class CategorieImpl extends CategorieRepository{
   http = inject(HttpClient);
   url = environment.apiURL;
   override getAllCategoriesTechnos(): Observable<any> {
-    return this.http.get<{ categories: Categorie[] }>(`categories.json`).pipe(
-      map((response => response.categories))
-    )
+    return this.http.get<Categorie[] >(`${this.url}/categorie`)
   }
 
 

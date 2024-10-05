@@ -3,7 +3,7 @@
   <p>{{data.projet.description}}</p>
   <p>  {{data.projet.descriptionplus}}</p>
   <div class="flex-technos">
-    @for (technosUtilisee of data.projet.technologies; track $index) {
+    @for (technosUtilisee of data.projet.technos; track $index) {
       <span><img [src]="'img/'+technosUtilisee.image_techno" alt=""></span>
     }
   </div>

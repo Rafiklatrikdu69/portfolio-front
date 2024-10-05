@@ -9,8 +9,7 @@ export class SemestreImpl extends SemestreRepository{
   http = inject(HttpClient);
   url = environment.apiURL;
   override getAllSemestre(): Observable<Semestre[]> {
-    return this.http.get<{ semestre: Semestre[]}>(`semestre.json`).pipe(
-      map((response=>response.semestre)))
+    return this.http.get<Semestre[]>(`${this.url}/semestre/get`)
 
   }
 

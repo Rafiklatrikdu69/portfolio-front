@@ -7,7 +7,7 @@ export interface Projet {
     id_projet: number;
     image: string;
     nom_projet: string;
-    technologies: Technology[];
+    technos: Technology[];
     categorie: Categorie;
     git: string;
     descriptionplus: string;
