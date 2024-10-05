@@ -9,7 +9,7 @@ Ce projet contient une application NestJS pour le backend et une base de donnée
 Exécutez la commande suivante pour lancer un conteneur MySQL :
 
 ```bash
-docker run --name mysql_db -p 3306:3306 rafik1212/mysql
+docker run --name mysql_db -p 3306:3306 rafik1212/mysql-portfolio:latest
 ```
 
 ### Étape 2 : Lancer La Back NestJs
