@@ -69,6 +69,6 @@ export const appConfig: ApplicationConfig = {
     categorieUseCaseProvider,
     repoCategorieProvider,
     repoSemestreProvider,
-    semestreUseCaseProvider
+    semestreUseCaseProvider, provideAnimationsAsync()
   ]
 };

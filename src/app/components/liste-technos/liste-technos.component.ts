@@ -1,4 +1,4 @@
-import { Component, computed, inject } from '@angular/core';
+import { Component,computed, inject } from '@angular/core';
 import {MatListModule} from '@angular/material/list';
 import {MatTabsModule} from '@angular/material/tabs';
 import { HttpClient } from '@angular/common/http';
@@ -17,7 +17,7 @@ import {MatDividerModule} from '@angular/material/divider';
     MatDividerModule
 ],
   templateUrl: './liste-technos.component.html',
-  styleUrl: './liste-technos.component.css'
+  styleUrl: './liste-technos.component.css',
 })
 export class ListeTechnosComponent {
   categorieService = inject(CategorieService);

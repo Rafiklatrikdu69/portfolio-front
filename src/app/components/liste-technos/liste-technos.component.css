@@ -1,18 +1,18 @@
+
 main{
-margin: 10%;
-  border: 1px solid rgb(11, 117, 183);
+  margin: 10%;
+  border: 1px solid #b30000;
   border-radius: 10px;
-  background-color: white;
+  color: #201c24;
   padding: 10px;
 }
-
 mat-list{
   height: 400px;
   overflow-y: scroll;
 }
 h1{
   text-align: center;
-  color: white;
+  color: #201c24;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -23,10 +23,11 @@ h1{
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(34, 111, 199);
+  background: #b30000;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #b30000;
 }
+
